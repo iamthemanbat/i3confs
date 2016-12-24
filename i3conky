@@ -1,0 +1,8 @@
+#!/bin/sh
+
+echo '{"version":1}'
+
+echo '['
+
+echo '[],'
+/usr/bin/conky -c ~/.config/i3/conky_color.conf
