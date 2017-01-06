@@ -172,7 +172,7 @@ bar {
 
 # Custom Bindings
 bindsym Mod1+Tab workspace back_and_forth
-bindsym Mod1+F12 exec "i3lock -i /home/waynec/pictures/back.png"
+bindsym Mod1+F12 exec "i3lock -i ~/pictures/back.png"
 bindsym XF86MonBrightnessDown exec "xbacklight -10"
 bindsym XF86MonBrightnessUp exec "xbacklight +10"
 bindsym XF86AudioRaiseVolume exec "amixer sset Master 5%+"
@@ -195,6 +195,6 @@ for_window [class="MPlayer"] floating enable
 
 #Startup
 exec --no-startup-id /usr/bin/slack
-exec --no-startup-id /home/waynec/bin/discord
-exec feh --bg-fill "/home/waynec/pictures/simple-27334.jpg"
+exec --no-startup-id ~/bin/discord
+exec feh --bg-fill "~/pictures/simple-27334.jpg"
 exec xrandr --output eDP1 --auto --output HDMI1 --auto --left-of eDP1
